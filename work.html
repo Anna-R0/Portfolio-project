@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Anna Ro is a front-end engineer based in US"
+    />
+    <title>Anna's projects</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -29,6 +33,33 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Anna logo"
+          />
+
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Anna logo"
+          />
+        </a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Anna"> About</a></li>
+          <li class="active">
+            <a href="/work.html" title="Anna's work"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Anna"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I've been working on</h1>
@@ -37,7 +68,7 @@
             <img
               src="images/yogurt.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="yogurt project"
             />
             <h3 class="text-center m-0">Yogurt Project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
@@ -46,7 +77,7 @@
             <img
               src="images/weather.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="weather project"
             />
             <h3 class="text-center m-0">Weather App</h3>
             <p class="text-center text-muted">
@@ -57,7 +88,7 @@
             <img
               src="images/dictionary.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="dictionary project preview"
             />
             <h3 class="text-center m-0">Dictionary Project</h3>
             <p class="text-center text-muted">
@@ -68,7 +99,7 @@
             <img
               src="images/translation.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="translation project preview"
             />
             <h3 class="text-center m-0">Translation Project</h3>
             <p class="text-center text-muted">
@@ -78,5 +109,46 @@
         </div>
       </div>
     </div>
+    <footer>
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a href="" class="btn btn-branding mt-3" title="Contact Anna"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:annetj333@gmail.com"
+          class="email-link"
+          title="Email Anna"
+          >Annetj333@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center mb-5">
+        <a href="https://github.com/Anna-R0" title="Anna on github"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.instagram.com/anna_r0_/" title="Anna on Instagram"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/anna.romero.733"
+          title="Anna on Facebook"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by Anna Ro and it is
+        <a href="https://github.com/Anna-R0" target="_blank">open-sourced</a>
+        😏
+      </p>
+    </footer>
   </body>
 </html>
